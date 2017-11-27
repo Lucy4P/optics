@@ -53,6 +53,10 @@ nav span {
   padding-right: 2rem;
 }
 
+.menu {
+  display: none;
+}
+
 .banner {
   background-color: white;
   display: inline-block;
@@ -72,5 +76,87 @@ nav span {
   position: relative;
   top: 10rem;
   left: 2rem;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.container {
+  width: 100%;
+}
+
+.header {
+  top: auto;
+}
+
+.hero {
+  height: 22rem;
+  padding-top: 0;
+}
+
+.main {
+  top: 5rem;
+  left: -2rem;
+}
+
+h1 {
+  padding: 0.75rem 4rem;
+  font-size: 1.33rem;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 560px) {
+
+.container {
+  width: 100%;
+}
+
+.header {
+  top: auto;
+}
+
+.hero {
+  height: 17rem;
+  background-position: 20%;
+}
+
+.logo span {
+  display: none;
+}
+.main {
+  margin-top: 9rem;
+  margin-bottom: 0;
+  left: auto;
+  top: 0;
+}
+
+.banner {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: none;
+}
+
+.menu {
+  display: inline-flex;
+  margin: 1rem 2rem;
+}
+
+
+
 
 }
