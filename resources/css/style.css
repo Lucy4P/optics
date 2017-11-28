@@ -83,7 +83,7 @@ nav span {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   margin-bottom: 3rem;
 
 }
@@ -96,7 +96,7 @@ nav span {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .service p {
@@ -111,6 +111,44 @@ nav span {
   width: 5rem;
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  /*border: 1px solid red;*/
+}
+
+.information {
+  width: 35%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid yellow;*/
+}
+
+.information span {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  height: 9.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: azure;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
 
 
 
@@ -145,6 +183,10 @@ h1 {
 
 .services {
   justify-content: space-around;
+}
+
+.info {
+  justify-content: center;
 }
 
 
@@ -207,9 +249,43 @@ nav {
 
 .service {
   margin-bottom: 1.54rem;
+  justify-content: space-between;
 }
 
 
+.info {
+  flex-direction: column;
+  align-items: center;
+}
+
+.information {
+  width: 100%;
+  text-align: left;
+}
+
+.information span {
+  width: 100%;
+  text-align: center;
+}
+
+.information p {
+  font-size: 0.77rem;
+  margin-bottom: 4rem;
+  padding-left: 1rem;
+
+}
+
+footer {
+  justify-content: center;
+}
+
+footer p {
+  display: none;
+}
+
+footer img {
+  margin: 0;
+}
 
 
 
